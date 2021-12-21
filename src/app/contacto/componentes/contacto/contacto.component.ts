@@ -41,7 +41,6 @@ export class ContactoComponent implements OnInit {
       }
       return this.emailCampo?.hasError('email') ? 'No es un email válido' : '';
     } 
-  // kkiwbqhdmbinsipb
   enviar(){
     if(this.contacto.valid){
       this._email.enviarMail(this.contacto.value).subscribe(res=>{

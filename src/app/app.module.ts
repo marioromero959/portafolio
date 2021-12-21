@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeModule } from './home/home.module';
-import { NgParticlesModule } from 'ng-particles';
 import { HeaderModule } from './shared/header/header.module';
 import { FooterModule } from './shared/footer/footer.module';
 import { HttpClientModule } from '@angular/common/http';
@@ -19,7 +18,6 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     BrowserAnimationsModule,
     HomeModule,
-    NgParticlesModule,
     HttpClientModule,
     HeaderModule,
     FooterModule

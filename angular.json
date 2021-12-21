@@ -35,11 +35,11 @@
               "src/styles.scss",
               "./node_modules/swiper/swiper-bundle.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "node_modules/aos/dist/aos.css"
+              "node_modules/animate.css/animate.min.css"
+              
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "node_modules/aos/dist/aos.js",
               "node_modules/swiper/swiper-bundle.js"
             ]
           },

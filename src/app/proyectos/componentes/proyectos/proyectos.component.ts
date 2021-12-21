@@ -11,5 +11,13 @@ export class ProyectosComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  
+  animarCard(id){
+    const card = document.querySelector(`.card${id}`);
+    card.classList.add('animate__animated', 'animate__rubberBand');
+    card.addEventListener('animationend', () => {
+      card.classList.remove('animate__animated', 'animate__rubberBand');
+    });
+  }
 
 }

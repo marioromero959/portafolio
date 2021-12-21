@@ -1,9 +1,16 @@
+section{
+    overflow: hidden;
+}
 h1,p{
     color: #fff;
     margin: 20px;
 }
 h1{
-    font-size: 30px;
+    font-size: 45px;
+}
+p{
+    font-size: 35px;
+    line-height: 30px;
 }
 section{
     text-align: center;
@@ -11,10 +18,12 @@ section{
 img{
     border-radius: 15px;
     width: 20em;
-    box-shadow: 0 0 30px #fff;
 }
 .container{
+    min-width: 90%;
+    background-color:rgba(255,255,255,.2) ;
     height: 70vh;
+    padding: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,15 +33,22 @@ img{
     font-size: 20px;
 }
 @media (max-width:480px){
-img{
-    margin-top: 30px;
-}
     .container{
+        background-color: transparent;
+        min-width: 100%;
         height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding-top: 0;
     }
-
+    .texto{
+        padding: 0;
+    }
+    p{
+        margin: 20px;
+        font-size: 20px;
+        line-height: 20px;
+    }
 }

@@ -7,15 +7,17 @@ span{
     color: #fff;
     background-color: red;
     border-radius: 10px;
-    box-shadow: 0px 0px 30px red;
+}
+span:hover{
+    background: none;
 }
 
-.container:nth-child(1){
-    min-width: 100%;
+.container{
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 80px;
+    padding: 40px;
+    overflow: hidden;
     .cabecera{
         width: 100%;
         display: flex;
@@ -32,28 +34,19 @@ span{
         }
     }
     .presentacion{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
         img{
             width: 23em;
-            border-radius: 20px;
-            margin: 20px;
-            margin-top: 0;
-            box-shadow: 0px 0px 20px #fff;
-        }
-        p{
-            text-align: center;
-            font-size: 1.5em;
+            border-radius: 10px;
         }
     }
 }
 
 .swiper{
-    max-width: 100% ;
-    margin:10px 10px;
+    max-width: 90% ;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
+
 @media (max-width:480px){
     .cabecera{
         text-align: center;
