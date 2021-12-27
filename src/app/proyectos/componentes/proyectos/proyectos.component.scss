@@ -33,7 +33,7 @@ mat-card:hover{
       color: #fff ;
   }
     .card1 {
-        background-color: rgb(72 136 0 / 47%);
+        background-color: rgba(136, 0, 0, 0.47);
     }
     .card2 {
       background-color: rgb(136 0 72 / 47%);
@@ -42,10 +42,9 @@ mat-card:hover{
       background-color: rgb(0 72 136 / 47%);
     }
 
-mat-card-title{
+h2{
     color:#fff;
-    font-size: 25px;
-    padding: 5px;
+    font-size: 20px;
 }
 mat-card-actions{
     width: 100%;

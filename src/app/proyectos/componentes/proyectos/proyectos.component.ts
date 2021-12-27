@@ -14,9 +14,9 @@ export class ProyectosComponent implements OnInit {
   
   animarCard(id){
     const card = document.querySelector(`.card${id}`);
-    card.classList.add('animate__animated', 'animate__rubberBand');
+    card.classList.add('animate__animated', 'animate__jello');
     card.addEventListener('animationend', () => {
-      card.classList.remove('animate__animated', 'animate__rubberBand');
+      card.classList.remove('animate__animated', 'animate__jello');
     });
   }
 
